@@ -1,11 +1,12 @@
 p, li{
+    list-style: linear-gradient(90deg, #00ff51, #00bfff);
+    margin-left: 10px;
     text-align:justify;
     font-weight: bold;
     font-size: 150%;
-
-    line-height: auto;
+    line-height: 40px;
     margin-bottom: 0px;
-
+    
 }
 
 hr{
@@ -26,10 +27,11 @@ body{
 
 }
 img{
-    margin: 10px;
+    margin: 20px;
     height: 95%;
     width: 95%;
-    max-width: 700px;
+    max-width: 650px;
+
 }
 
 hr{
@@ -50,3 +52,4 @@ h2,h1,p,li{
 
     -webkit-text-fill-color: transparent;
 }
+
