@@ -1,9 +1,11 @@
 p, li{
     text-align:justify;
     font-weight: bold;
-    font-size: 25px;
-    color: darkgreen;
+    font-size: 22.2px;
+
     line-height: 40px;
+    margin-bottom: 0px;
+
 }
 
 hr{
@@ -19,10 +21,10 @@ h1{
 }
 
 body{
-    background: -webkit-linear-gradient(89deg, #00fffb,#37ff00);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(89deg, #00fffb,#37ff00);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                                                                         
+    margin: 20px;
+    background-color: black;
 
 }
-
 img{
     margin: 10px;
     height: 35%;
@@ -30,6 +32,7 @@ img{
 }
 
 hr{
+    background: linear-gradient(90deg, #00ff51, #00bfff);
     clear: both;
 }
 
@@ -37,4 +40,12 @@ h2{
     text-align: center;
     font-weight: bold;
     font-size: 30px;
+}
+
+h2,h1,p,li{
+    background-image: linear-gradient(to right, #00ff51, #00ffbf ,#00bfff);
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
 }
